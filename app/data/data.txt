@@ -1,0 +1,4 @@
+AI Voice Agent is a smart assistant powered by LangChain and Hugging Face models.
+It can process both text and voice inputs to answer your questions.
+The system uses Whisper for speech-to-text conversion and gTTS for text-to-speech output.
+It leverages FAISS for vector storage and retrieval for efficient information retrieval.
