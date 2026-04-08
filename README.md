@@ -23,35 +23,6 @@ Get AI responses in natural human-like voice output.
 
 High-performance backend for real-time communication and fast responses.
 
-📂 Project Structure
-AI_VOICE_AGENT/
-│
-├── app/
-│   ├── data/
-│   │   └── data.txt
-│   │
-│   ├── agent.py          # AI logic (LangChain + Hugging Face)
-│   ├── auth.py           # Authentication system
-│   ├── database.py       # Database (SQLite)
-│   ├── main.py           # FastAPI entry point
-│   ├── speech.py         # Speech-to-text logic
-│   │
-│   └── users.db          # Database file
-│
-├── audio/                # Audio storage (input/output)
-├── frontend/             # Frontend UI (optional)
-│
-├── answer.mp3            # Generated voice output
-├── temp_voice.webm       # Temporary voice input
-│
-├── run_server.py         # Server runner
-├── stt.py                # STT helper
-├── test_api.py           # API testing
-├── test.py               # General testing
-│
-├── requirements.txt      # Dependencies
-├── README.md             # Documentation
-├── .gitignore            # Ignored files
 ⚙️ Installation & Setup
 1️⃣ Clone Repository
 git clone https://github.com/vivekkumar404/AI-Voice-Agent.git
