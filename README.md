@@ -46,12 +46,19 @@ uvicorn main:app --reload
 📡 API Endpoints
 
 Endpoint	Method	Description
+
 /voice	POST	Voice → AI → Voice response
+
 /chat	POST	Text → AI response
 
 🛠️ Tech Stack
+
 Backend: FastAPI
+
 AI Framework: LangChain
+
 Models: Hugging Face (Mistral)
+
 Speech Processing: STT + TTS
+
 Database: SQLite
